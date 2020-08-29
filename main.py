@@ -8,5 +8,5 @@ elem = driver.find_element_by_name("q")
 elem.clear()
 elem.send_keys("pyconon")
 elem.send_keys(Keys.RETURN)
-assert "qweqwewq" not in driver.page_source
+assert "mashka koza" not in driver.page_source
 driver.close()
